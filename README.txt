@@ -3,23 +3,24 @@ Installing  Dependencies
 
 xorg
 xorg-xinit
-sxhkd 
+sxhkd
 dmenu
-feh 
+feh
 picom
-kitty 
+kitty
 firefox
-arandr 
+arandr
 thunar
 kate
 neovim
-git 
+git
 polybar
 pacman-contrib
 alsa-utils
 paru
 xdg-user-dirs
 rofi
+networkmanager-dmenu
 
 # PARU
 
@@ -35,7 +36,7 @@ git clone https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme.git
 cd Tokyo-Night-GTK-Theme/
 mv themes/Tokyonight-Dark-BL /usr/share/themes/
 
-mv .gtkrc-2.0 ~/
+mv home/.gtkrc-2.0 ~/
 
 # FONTS
 cp fonts ~/.local/share/
