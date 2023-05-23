@@ -1,6 +1,5 @@
-Installing  Dependencies
-# PACMAN
-
+## Installing  Dependencies
+### PACMAN
 xorg
 xorg-xinit
 sxhkd
@@ -22,14 +21,10 @@ xdg-user-dirs
 rofi
 networkmanager-dmenu
 
-# PARU
-
+### PARU
 bspwm-rounded-corners-git
 
-
-
-
-Installing  GTK Themes (Tokyo-Night)
+## Installing  GTK Themes (Tokyo-Night)
 
 ```bash
 cd ~/Downloads
@@ -40,13 +35,13 @@ mv themes/Tokyonight-Dark-BL /usr/share/themes/
 mv home/.gtkrc-2.0 ~/
 ```
 
-# FONTS
+## FONTS
 ```bash
 cp fonts ~/.local/share/
 ```
 
 
-# CONFIGS
+## CONFIGS
 ```bash
 mv config/* ~/.config
 ```
